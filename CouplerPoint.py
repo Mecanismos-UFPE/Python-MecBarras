@@ -4,21 +4,6 @@
 ##    Uso exclusivo alunos Mecanismos UFPE/DEMEC   ##
 #####################################################
 
-### UTILIZAÇÃO
-#
-#   Objeto P definido de antemão pelo sistema
-#            Atributos do objeto --> u,v,sᵢ,xₒ e yₒ
-#
-#   P.u = coordenada "u" local
-#   P.v = coordenada "v" local
-#   P.sᵢ = ângulo do eixo das abscissas (sistema local) com a horizontal
-#   P.xₒ = coordenada global, horizontal, da horigem do sietema local
-#   P.yₒ = coordenada global, vertical, da horigem do sietema local
-#
-#   P.CouplerSolve() <-- Chamada da função que vai calcular os
-#                        deslocamentos, velocidades e acelerações.
-###======================================================================
-
 #!/usr/bin/env python
 # coding: utf-8
 
