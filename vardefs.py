@@ -4,7 +4,7 @@
 ##   Uso exclusivo alunos Mecanismos UFPE/DEMEC   ##
 ####################################################
 
-#!/usr/bin/env pytho
+#!/usr/bin/env python
 # coding: utf-8
 
 from io import FileIO
