@@ -1,4 +1,4 @@
-# [CouplerPoint.py](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Mecanismos-UFPE/Python-MecBarras/blob/c8ee2ea465154a8838dcce85b8aecea6e949d646/Permut.jl)
+# [CouplerPoint.py](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Mecanismos-UFPE/Python-MecBarras/blob/318c5d293f98e537dcfdfa056cffdf775740440d/CouplerPoint.py)
 
 ### Utilização com base na Classe CouplerPoint
 
