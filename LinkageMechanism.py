@@ -104,7 +104,7 @@ def All_Matrix(Cg,Eq,f):
 
 def MecSolve(Cg,Eq,flag=0):     # Cg,Vg Coords e Veloc Generalizadas
     f = len(Cg)-len(Eq)         # Graus de liberdade
-    r = len(Eq)                 # Qtd. de Eq. de restrição
+    r = len(Eq)                 # Qtd. de Equações de restrição
 
     F,K,J,L = All_Matrix(Cg,Eq,f)    
 
