@@ -50,7 +50,7 @@ function Show_Combines(N)
         for i in 1:k-3                    # efetua as permutações
             if aux[i] == k                # no vetor aux.
                 aux[i] = 1
-                aux[i+1] += 1
+                aux[i+1] += 1 a
             end
         end
     end
