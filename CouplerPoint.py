@@ -7,7 +7,21 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-from vardefs import *
+from sympy import *
+from sympy import diff as D
+from IPython.display import display, Markdown, Latex
+
+#a,b,c,d,e,t = symbols('a b c d e t')
+a,b,c,d,e,f,g,h,x,y,x,z,u,w,k,t,r,l,ℓ = symbols('a b c d e f g h x y x z u w k t r \\ell \\ell')
+α,β,γ,δ = Function ('alpha')(t), Function ('beta')(t),Function ('gamma')(t),Function ('delta')(t)
+θ,φ,x,y,z = Function ('theta')(t), Function ('varphi')(t),Function ('x')(t),Function ('y')(t),Function ('z')(t)
+αt,βt,γt,δt,θt,φt = symbols('\\dot{\\alpha} \\dot{\\beta} \\dot{\\gamma} \\dot{\\delta} \\dot{\\theta} \\dot{\\varphi}')
+xt,yt,zt = symbols('\\dot{x} \\dot{y} \\dot{z}')
+αtt,βtt,γtt = symbols('\\ddot{\\alpha} \\ddot{\\beta} \\ddot{\\gamma}')
+δtt,θtt,φtt = symbols('\\ddot{\\delta} \\ddot{\\theta} \\ddot{\\varphi}')
+xtt,ytt,ztt = symbols('\\ddot{x} \\ddot{y} \\ddot{z}')
+Vc = {α:αt,β:βt,γ:γt,δ:δt,θ:θt,φ:φt,x:xt,y:yt,z:zt}
+Ac = {α:αtt,β:βtt,γ:γtt,δ:δtt,θ:θtt,φ:φtt,x:xtt,y:ytt,z:ztt}
 
 class CouplerPoint:
     """ Definition class for Coupler Points. """

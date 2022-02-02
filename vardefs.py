@@ -47,12 +47,3 @@ Ls = {α:ℓα,β:ℓβ,γ:ℓγ,δ:ℓδ,θ:ℓθ,φ:ℓφ,x:ℓx,y:ℓy,z:ℓz
 x1t,x2t,y1t,y2t,z1t,z2t = symbols('\\dot{x_1} \\dot{x_2} \\dot{y_1} \\dot{y_2} \\dot{z_1} \\dot{z_2}')
 xt,yt,zt = symbols('\\dot{x} \\dot{y} \\dot{z}')
 Ve = {α:αt,β:βt,γ:γt,δ:δt,θ:θt,θ1:θ1t,θ2:θ2t,θ3:θ3t,φ:φt,x:xt,y:yt,z:zt,x1:x1t,x2:x2t,y1:y1t,y2:y2t,z1:z1t,z2:z2t}
-
-θ,φ,x,y,z = Function ('theta')(t), Function ('varphi')(t),Function ('x')(t),Function ('y')(t),Function ('z')(t)
-αt,βt,γt,δt,θt,φt = symbols('\\dot{\\alpha} \\dot{\\beta} \\dot{\\gamma} \\dot{\\delta} \\dot{\\theta} \\dot{\\varphi}')
-xt,yt,zt = symbols('\\dot{x} \\dot{y} \\dot{z}')
-αtt,βtt,γtt = symbols('\\ddot{\\alpha} \\ddot{\\beta} \\ddot{\\gamma}')
-δtt,θtt,φtt = symbols('\\ddot{\\delta} \\ddot{\\theta} \\ddot{\\varphi}')
-xtt,ytt,ztt = symbols('\\ddot{x} \\ddot{y} \\ddot{z}')
-Vc = {α:αt,β:βt,γ:γt,δ:δt,θ:θt,φ:φt,x:xt,y:yt,z:zt}
-Ac = {α:αtt,β:βtt,γ:γtt,δ:δtt,θ:θtt,φ:φtt,x:xtt,y:ytt,z:ztt}
