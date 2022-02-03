@@ -22,7 +22,7 @@ function Verify(N)
     true
 end
 
-function Show_Combines(N)
+function ShowCombines(N)
     Verify(N) ? p=1 : return     # Inicia Contador de permutações
 
     global k; global n₂; global n₃
