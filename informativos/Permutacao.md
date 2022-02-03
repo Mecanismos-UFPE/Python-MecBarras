@@ -1,4 +1,4 @@
-# [Permut.py](https://github.com/Mecanismos-UFPE/Python-Cames/blob/5154702af5b295ff015b622eb799bd21c61b8c11/GetPrimeCircle.py)
+# [Permut.py](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Mecanismos-UFPE/Python-MecBarras/blob/c3f4bcbbfef0f4ffac6310130929cce714467316/Permut.jl)
 
 > Permite a análise de cadeias impostas com determinada quantidade de barras.
 > Fornece todas as permutações possíveis, dada uma quantidade de barras.
