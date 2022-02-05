@@ -41,9 +41,3 @@ Ck = {α:kα,β:kβ,γ:kγ,δ:kδ,θ:kθ,φ:kφ,x:kx,y:ky,z:kz,φ1:kφ1,φ2:kφ2
 
 # Associating Aceleration Coeficients
 Ls = {α:ℓα,β:ℓβ,γ:ℓγ,δ:ℓδ,θ:ℓθ,φ:ℓφ,x:ℓx,y:ℓy,z:ℓz,u:ℓu,v:ℓv,w:ℓw,x1:ℓx1,x2:ℓx2,x3:ℓx3,y1:ℓy1,y2:ℓy2,y3:ℓy3,z1:ℓz1,z2:ℓz2,z3:ℓz3,φ1:ℓφ1,φ2:ℓφ2,φ3:ℓφ3,θ1:ℓθ1,θ2:ℓθ2,θ3:ℓθ3,α1:ℓα1,α2:ℓα2,α3:ℓα3,β1:ℓβ1,β2:ℓβ2,β3:ℓβ3}
-
-αt,βt,γt,δt,θt,φt = symbols('\\dot{\\alpha} \\dot{\\beta} \\dot{\\gamma} \\dot{\\delta} \\dot{\\theta} \\dot{\\varphi}')
-θ1t,θ2t,θ3t = symbols('\\dot{\\theta_1} \\dot{\\theta_2} \\dot{\\theta_3}')
-x1t,x2t,y1t,y2t,z1t,z2t = symbols('\\dot{x_1} \\dot{x_2} \\dot{y_1} \\dot{y_2} \\dot{z_1} \\dot{z_2}')
-xt,yt,zt = symbols('\\dot{x} \\dot{y} \\dot{z}')
-Ve = {α:αt,β:βt,γ:γt,δ:δt,θ:θt,θ1:θ1t,θ2:θ2t,θ3:θ3t,φ:φt,x:xt,y:yt,z:zt,x1:x1t,x2:x2t,y1:y1t,y2:y2t,z1:z1t,z2:z2t}
