@@ -1,5 +1,5 @@
 # [LinkageMechanism.py](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Mecanismos-UFPE/Python-MecBarras/blob/dfe02a91259ff396605f323bce8f6888c320b73e/LinkageMechanism.py)
-A utilização do módulo "LinkageMechanism" exige que o módulo ["vardefs.py"](https://github.com/Mecanismos-UFPE/Python-MecBarras/blob/2c7919d6e725b8af7a2f2a9502b8fa78812ef233/vardefs.py) esteja na mesma pasta onde se encontra o "LinkageMechanism" 
+A utilização do módulo "LinkageMechanism" exige que o módulo ["vardefs.py"](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Mecanismos-UFPE/Python-MecBarras/blob/2c7919d6e725b8af7a2f2a9502b8fa78812ef233/vardefs.py) esteja na mesma pasta onde se encontra o "LinkageMechanism" 
 ### Funções Disponíveis
 
 * **MecSolve**
